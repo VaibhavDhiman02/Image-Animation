@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bungee+Hairline&family=Calligraffitti&family=Caveat:wght@400..700&family=Irish+Grover&family=League+Script&family=Luckiest+Guy&family=Oooh+Baby&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titan+One&family=WindSong:wght@400;500&family=Zeyada&display=swap');
+
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2px;
+    height: 606px;
+    position: relative;
+}
+
+.cards:active > .container{
+    background: url(e2.jpg);
+    background-size: cover;
+} 
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(jj.jpg);
+    background-size: cover;
+    filter: blur(2px);
+    filter: brightness(0.9);
+    z-index: -1;
+    box-shadow: none;
+}
+
+.cards{
+    height: 250px;
+    width: 120px;
+    background-color: rgb(4, 119, 23);
+    border-radius: 10px;
+    transition: 0.1s ease-in-out;
+    line-height: 0px;
+    box-shadow: rgba(4, 14, 2, 0.4) 0px 30px 90px;
+}
+ 
+.cards:hover {
+    width: 20%;
+    line-height: 17px;
+    height: 400px;
+    box-shadow: none;
+}
+
+.cards:hover > .con{
+    opacity: 10;
+    line-height: 18px;
+
+}
+
+.con{
+    line-height: 0px;
+    opacity: 0;
+    color: white;
+    transition: 0.08s ease-in-out;
+}
+
+.c1-img{
+    height: 250px;
+    background: url(e1.jpg);
+    background-size: cover;
+    transition: 0.1s steps(7);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.cards:hover > .c1-img{
+    background-image: url(e2.jpg);
+    background-size: cover;
+    box-shadow: none;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.c2-img{
+    height: 250px;
+    background: url(r1.jpg);
+    background-size:cover;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    transition: 0.1s steps(7);
+    border-radius: 10px 10px 10px 10px;
+
+}
+
+.cards:hover > .c2-img{
+    background-image: url(r2.jpg);
+    box-shadow: none;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.c3-img{
+    height: 250px;
+    background: url(l1.jpg);
+    background-size:cover;
+    transition: 0.1s steps(7);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.cards:hover > .c3-img{
+    background-image: url(l2.jpg);
+    box-shadow: none;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.c4-img{
+    height: 250px;
+    background: url(g1.jpg);
+    background-size:cover;
+    transition: 0.1s steps(7);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.cards:hover > .c4-img{
+    background-image: url(g2.jpg);
+    box-shadow: none;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.c5-img{
+    height: 250px;
+    background: url(h1.jpg);
+    background-size:cover;
+    transition: 0.1s steps(7);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.cards:hover > .c5-img{
+    background-image: url(h2.jpg);
+    box-shadow: none;
+    border-radius: 10px 10px 0px 0px;
+}
+
+h4{
+    padding: 15px 0px 12px 20px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+p{
+    padding: 0px 20px 12px 20px;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 13px;
+}
